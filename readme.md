@@ -77,7 +77,7 @@ RAG is a technique that enhances large language models by retrieving relevant in
 
 - [Cohere Rerank](https://cohere.com/rerank) - Commercial cross-encoder reranking API with state-of-the-art relevance scoring.
 - [ColBERT](https://github.com/stanford-futuredata/ColBERT) - Late-interaction retrieval model using token-level matching for efficient and accurate reranking.
-- [BGE Reranker](https://github.com/FlagOpen/FlagEmbedding) - Open-source cross-encoder reranker models (v2-m3, v2-gemma) by BAAI.
+- [BGE Reranker](https://huggingface.co/BAAI/bge-reranker-v2-m3) - Open-source cross-encoder reranker models (v2-m3, v2-gemma) by BAAI.
 - [FlashRank](https://github.com/PrithivirajDamodaran/FlashRank) - Ultra-lightweight reranking library for instant query-document relevance scoring.
 - [RankLLM](https://github.com/castorini/rank_llm) - Reranking framework using LLMs as listwise rerankers.
 - [Mixedbread Rerank](https://github.com/mixedbread-ai/mxbai-rerank) - Open-source cross-encoder rerankers based on Qwen architecture with reinforcement learning training.
@@ -89,7 +89,7 @@ RAG is a technique that enhances large language models by retrieving relevant in
 - [LlamaParse](https://github.com/run-llama/llama_parse) - Document parser by LlamaIndex for extracting structured data from PDFs, tables, and complex layouts.
 - [Docling](https://github.com/DS4SD/docling) - Document understanding and conversion library by IBM supporting PDF, DOCX, HTML, and more.
 - [ChunkViz](https://github.com/gkamradt/ChunkViz) - Visualization tool for understanding different text chunking strategies.
-- [Semantic Chunker](https://github.com/run-llama/llama_index) - Semantic-aware text splitting that groups related content together (part of LlamaIndex).
+- [Chonkie](https://github.com/bhavnicksm/chonkie) - Lightweight, fast chunking library with multiple strategies including token, semantic, and sentence splitting.
 - [MegaParse](https://github.com/QuivrHQ/MegaParse) - Parser for any type of document with no information loss, supporting text, tables, and images.
 - [Marker](https://github.com/VikParuchuri/marker) - Fast and accurate PDF to Markdown converter for RAG pipelines.
 - [PyMuPDF](https://github.com/pymupdf/PyMuPDF) - High-performance Python bindings for MuPDF to extract text, images, and metadata from PDFs.
@@ -111,7 +111,7 @@ RAG is a technique that enhances large language models by retrieving relevant in
 - [DSPy](https://github.com/stanfordnlp/dspy) - Framework for programming (not prompting) language models with automatic optimization of RAG pipelines.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Microsoft SDK for integrating AI models into applications with built-in RAG patterns.
 - [Autogen](https://github.com/microsoft/autogen) - Framework for building multi-agent conversational systems with tool use and retrieval.
-- [Llama Agents](https://github.com/run-llama/llama-agents) - Microservices framework for building multi-agent RAG systems with message queues.
+- [LlamaIndex Agents](https://github.com/run-llama/llama-agents) - Microservices framework for building multi-agent RAG systems with message queues.
 
 ## Tutorials and Courses
 
