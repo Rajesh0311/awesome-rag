@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="arrow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#bg)" />
+  <!-- Document icon (retrieve) -->
+  <rect x="40" y="45" width="45" height="55" rx="4" fill="#e0e7ff" opacity="0.9"/>
+  <line x1="50" y1="60" x2="75" y2="60" stroke="#6366f1" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="50" y1="70" x2="75" y2="70" stroke="#6366f1" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="50" y1="80" x2="68" y2="80" stroke="#6366f1" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Arrow (augment) -->
+  <path d="M92 72 L118 72" stroke="url(#arrow)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M112 64 L122 72 L112 80" stroke="url(#arrow)" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- Brain/generate icon -->
+  <path d="M135 55 C125 45 145 35 150 48 C160 38 175 48 168 58 C178 62 178 78 168 82 C175 92 162 100 152 94 C148 102 132 102 128 94 C118 100 108 90 112 82 C102 78 102 62 112 58 C108 48 120 38 130 48 C132 44 134 50 135 55Z" fill="#e0e7ff" opacity="0.9"/>
+  <circle cx="140" cy="70" r="3" fill="#6366f1"/>
+  <circle cx="150" cy="65" r="2.5" fill="#8b5cf6"/>
+  <circle cx="148" cy="78" r="2.5" fill="#6366f1"/>
+  <circle cx="135" cy="78" r="2" fill="#8b5cf6"/>
+  <line x1="140" y1="70" x2="150" y2="65" stroke="#6366f1" stroke-width="1.5"/>
+  <line x1="140" y1="70" x2="148" y2="78" stroke="#6366f1" stroke-width="1.5"/>
+  <line x1="140" y1="70" x2="135" y2="78" stroke="#8b5cf6" stroke-width="1.5"/>
+  <!-- Text -->
+  <text x="100" y="135" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="28" fill="white">RAG</text>
+  <text x="100" y="158" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="400" font-size="11" fill="#e0e7ff" letter-spacing="3">RETRIEVE · AUGMENT · GENERATE</text>
+</svg>
