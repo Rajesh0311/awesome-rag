@@ -89,6 +89,7 @@ RAG is a technique that enhances large language models by retrieving relevant in
 
 - [Chonkie](https://github.com/bhavnicksm/chonkie) - Lightweight, fast chunking library with multiple strategies including token, semantic, and sentence splitting.
 - [ChunkViz](https://github.com/gkamradt/ChunkViz) - Visualization tool for understanding different text chunking strategies.
+- [ChunkScore](https://ragprep.com) — Chunk quality auditor for RAG pipelines. Scores chunks across 5 weighted signals before embedding. Complements LangChain, Chonkie, and LlamaIndex.
 - [Docling](https://github.com/DS4SD/docling) - Document understanding and conversion library by IBM supporting PDF, DOCX, HTML, and more.
 - [LlamaParse](https://github.com/run-llama/llama_parse) - Document parser by LlamaIndex for extracting structured data from PDFs, tables, and complex layouts.
 - [Marker](https://github.com/VikParuchuri/marker) - Fast and accurate PDF to Markdown converter for RAG pipelines.
